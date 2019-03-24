@@ -1,0 +1,26 @@
+name: flare_loop_partial_animation
+description: An application demonstrating how to loop the last portion of a flare animation
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+  flare_flutter: ^1.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/flare/
