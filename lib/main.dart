@@ -55,7 +55,7 @@ class StackedDisplay extends StatelessWidget {
   }
 }
 
-class DualAnimationLoopController implements FlareController {
+class DualAnimationLoopController with FlareController {
   final String _startAnimationName;
   final String _loopAnimationName;
   final double _mix;
@@ -121,7 +121,7 @@ class _WavingFlagDualPageState extends State<WavingFlagDualPage> {
   }
 }
 
-class EndLoopController implements FlareController {
+class EndLoopController with FlareController {
   final String _animation;
   final double _loopAmount;
   final double _mix;
